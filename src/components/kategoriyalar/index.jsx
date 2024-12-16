@@ -23,12 +23,12 @@ function Kategoriyalar() {
         </button>
       </div>
 
-      <div className="mt-9 w-[90%] m-auto max-[568px]:text-[0.8em] max-[450px]:text-[0.6em]">
-        {/* <h2 className="font-bold text-[1.5em] tracking-wide text-black">
+      <div className="mt-9 w-[90%] m-auto max-[568px]:text-[0.8em] max-[450px]:text-[0.6em]  max-[568px]:mt-5">
+        <h2 className="font-bold text-[1.5em] tracking-wide text-black">
           Ommabop Kategoriyalar
-        </h2> */}
+        </h2>
 
-        <div className="grid grid-cols-6 grid-rows-2 gap-2 mt-7 max-[1100px]:!grid max-[1100px]:!grid-cols-4 max-[1100px]:!grid-rows-3 max-[1100px]:gap-3   max-[800px]:!grid max-[800px]:!grid-cols-2 max-[1100px]:!grid-rows-5  ">
+        <div className="grid grid-cols-6 grid-rows-2 gap-2 mt-7 max-[1100px]:!grid max-[1100px]:!grid-cols-4 max-[1100px]:!grid-rows-3 max-[1100px]:gap-3  max-[800px]:!grid max-[800px]:!grid-cols-2 max-[1100px]:!grid-rows-5 max-[568px]:mt-4  ">
           <div className="w-full h-auto bg-[#7e919d] row-start-1 row-end-3 col-start-1 col-end-2 ">
             <img className="w-[100%]" src={grid1} alt="" />
             <p className="p-5 font-normal text-[#FFF] text-[1.2em] tracking-wide">
